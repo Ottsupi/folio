@@ -95,10 +95,10 @@ $(document).ready(function() {
       autoplay: true,
       loop: true,
       margin: 20,
-      dots: true,
+      dots: false,
       nav: false,
       responsiveClass: true,
-      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+      responsive: { 0: { items: 2 }, 768: { items: 2 }, 900: { items: 4 } }
     });
 
   // ========================================================================= //

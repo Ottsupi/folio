@@ -333,6 +333,17 @@ nav ul li a {
 .owl-item {
   float: left;
 }
+.services-block  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-block img {
+  height: 50px;
+  width: 50px;
+}
+
 .services-block span {
   margin: 10px 0;
   position: relative;
@@ -348,6 +359,7 @@ nav ul li a {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
+  text-align: center;
 }
 
 .services-block i {
